@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </tool>
+    <tool name="Pin">
+      <a name="facing" val="west"/>
+    </tool>
+    <tool name="Clock">
+      <a name="labelloc" val="north"/>
+    </tool>
+    <tool name="Constant">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(890,400)" to="(940,400)"/>
+    <wire from="(750,410)" to="(940,410)"/>
+    <wire from="(530,390)" to="(570,390)"/>
+    <wire from="(910,420)" to="(910,450)"/>
+    <wire from="(890,370)" to="(890,400)"/>
+    <wire from="(530,410)" to="(530,440)"/>
+    <wire from="(570,360)" to="(570,390)"/>
+    <wire from="(650,460)" to="(650,540)"/>
+    <wire from="(570,360)" to="(680,360)"/>
+    <wire from="(410,370)" to="(510,370)"/>
+    <wire from="(960,380)" to="(1070,380)"/>
+    <wire from="(750,330)" to="(920,330)"/>
+    <wire from="(650,420)" to="(650,460)"/>
+    <wire from="(650,340)" to="(650,380)"/>
+    <wire from="(650,380)" to="(650,420)"/>
+    <wire from="(530,440)" to="(680,440)"/>
+    <wire from="(530,400)" to="(680,400)"/>
+    <wire from="(530,320)" to="(680,320)"/>
+    <wire from="(920,390)" to="(940,390)"/>
+    <wire from="(650,460)" to="(680,460)"/>
+    <wire from="(650,340)" to="(680,340)"/>
+    <wire from="(650,420)" to="(680,420)"/>
+    <wire from="(650,380)" to="(680,380)"/>
+    <wire from="(720,450)" to="(750,450)"/>
+    <wire from="(720,330)" to="(750,330)"/>
+    <wire from="(720,370)" to="(750,370)"/>
+    <wire from="(720,410)" to="(750,410)"/>
+    <wire from="(750,450)" to="(910,450)"/>
+    <wire from="(910,420)" to="(940,420)"/>
+    <wire from="(920,330)" to="(920,390)"/>
+    <wire from="(530,320)" to="(530,380)"/>
+    <wire from="(750,370)" to="(890,370)"/>
+    <comp lib="1" loc="(720,450)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(750,330)" name="Probe"/>
+    <comp lib="0" loc="(1070,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(750,370)" name="Probe"/>
+    <comp lib="1" loc="(720,370)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(720,330)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(750,450)" name="Probe"/>
+    <comp lib="0" loc="(510,370)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="1" loc="(720,410)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(750,410)" name="Probe"/>
+    <comp lib="0" loc="(650,540)" name="Pin">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(410,370)" name="Pin">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(960,380)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+  </circuit>
+</project>

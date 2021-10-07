@@ -1,10 +1,17 @@
 # LOGIC_SIMULATIONS
-LOGISIM software is required to open the files in this repository, its a 6MB, free software, just download it...
 
+## Required pre requisites 
 
-file"bit8_computer0" is the main simulation file, rest of the file are the libraries for the subCircuits, 
-u need to download the whole ZIP pacage, extract it,
-and open the main file"bit8_computer0" and when the software asks you to add some extra missing file,
-select and add the rest of the file.
+1. Get the simulator from [HERE](https://sourceforge.net/projects/circuit/) 
 
+## Demo Screeshots of the results
+![](https://github.com/yasirfaizahmed/LOGIC_SIMULATIONS/blob/master/Screenshot%20(193).png)
+
+![](https://github.com/yasirfaizahmed/LOGIC_SIMULATIONS/blob/master/Screenshot%20(192).png)
+
+![](https://github.com/yasirfaizahmed/LOGIC_SIMULATIONS/blob/master/Screenshot%20(195).png)
+
+![](https://github.com/yasirfaizahmed/LOGIC_SIMULATIONS/blob/master/Screenshot%20(186).png)
+
+![](https://github.com/yasirfaizahmed/LOGIC_SIMULATIONS/blob/master/Screenshot%20(188).png)
 
